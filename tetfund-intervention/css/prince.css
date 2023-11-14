@@ -1,0 +1,188 @@
+/*General Styling*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&amp;family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+}
+
+/*Senate Building*/
+.project-intro-block{
+    position: relative;
+    background-image: url('../images/tet/sen.jpg');
+    height: 350px;
+    width: 100%;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wh-inherit{
+    width: inherit;
+    height: inherit;
+}
+.project-intro-block-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: inherit;
+    background: rgb(13,33,4);
+    background: linear-gradient(264deg, rgba(13,33,4,1) 31%, rgba(13,33,4,1) 86%);
+    opacity: .93;
+    transform: rotateY(180deg)
+}
+.project-intro-content{
+    font-family: "Poppins",sans-serif;
+}
+.project-intro-heading{
+    margin-bottom: 9px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #f6f6f6;
+}
+.project-intro-subheading{
+    font-size: 33px;
+    font-weight: 300;
+    color: #f6f6f6;
+}
+.project-intro-inter-parent{
+    font-size: 25px;
+    font-weight: 400;
+    color: #c97805;
+}
+.project-intro-inter{
+    margin: 34px 0;
+    margin-bottom: 2px;
+    font-size: 29px;
+    font-weight: 600;
+    color: #111111;
+}
+.breadcrumb-nav{
+    margin-bottom: 23px;
+}
+.project-intro-breadcrumb{
+    padding: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #a9a6a6;
+}
+.breadcrumb-active{
+    color: #312f2f;
+}
+.text-capitalized{
+    text-transform: capitalize;
+}
+.breadcrumb-icon-right{
+    margin: 0 3px;
+    font-size: 10px;
+    color: #525050;
+}
+.tab-name{
+    text-align: center;
+    margin: 5px 0;
+    padding: 19px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.tab-name:hover{
+    background-color: #0a2444;
+    color: #f6f6f6;
+    transition: all 350ms linear;
+    cursor: pointer;
+}
+.active-tab{
+    background-color: #0a2444;
+    color: #f6f6f6;
+}
+.project-tab-output{
+    margin: 45px 0;
+}
+.about-sec{
+    font-size: 18px;
+    color: #737575;
+}
+.about-content-sec{
+    margin-bottom: 15px;
+    padding: 16px;
+    text-align: justify;
+}
+.odd-bg{
+    background-color: #f1f1f1;
+}
+.about-content-sidebar{
+    background-color: #100d07;
+    padding: 13px;
+}
+.about-sidebar-heading{
+    font-size: 29px;
+    color: #f6f6f6;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.about-sidebar-content{
+    margin: 32px 0;
+    padding: 0 17px;
+}
+.about-sidebar-content-heading{
+    font-size: 21px;
+    color: #ece8e8;
+}
+/*Senate Building Project Sec*/
+.project-sec-img img{
+    height:240px;
+    width:100%;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 5px;
+}
+.project-sec-img:hover .project-sec-img-overlay{
+    background-color: #0a2444;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 350ms linear;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.project-sec-img-icon-overlay{
+    color: #f0f1f3;
+    font-size: 70px;
+    display: none;
+    font-weight: 100;
+}
+.project-sec-img:hover .project-sec-img-icon-overlay{
+    display: inline-block;
+    transition: all 450ms linear;
+}
+.p_relative{
+    position: relative;
+}
+.p_absolute{
+    position: absolute;
+}
+.project-sec-img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.no-docs{
+    background-color: #0f3e68;
+    color: #f6f6f6;
+    font-size: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 34px 0;
+}
+.no-active-inter{
+    display: none;
+}
